@@ -10,7 +10,7 @@ header {
 	background-color: #bd5d38;
 }
 
-h1{
+h1 {
 	text-align: center;
 }
 
@@ -28,7 +28,7 @@ span {
 }
 
 p.link {
-  text-align: center;
+	text-align: center;
 }
 
 p.des {
@@ -44,7 +44,7 @@ p.des {
 	border-radius: 10px;
 }
 
-.img_size_phn{
+.img_size_phn {
 	width: 25%;
 	border-radius: 10px;
 }
@@ -128,4 +128,20 @@ input[type=checkbox]:checked ~ label > .zoom8 {
 input[type=checkbox]:checked ~ label > .zoom9 {
 	transform: scale(1.6);
 	cursor: zoom-out;
+}
+
+@media (max-width: 992px) {
+	.phn_padding {
+		padding: 1rem 1rem 0 1rem;
+	}
+}
+
+@media (max-width: 575px) {
+	.img_size {
+		width: 80%;
+	}
+
+	.img_size_phn {
+		width: 55%;
+	}
 }

@@ -124,6 +124,9 @@ p.des {
     text-align: center;
     align-self: center;
   }
+  .margin_bottom {
+    margin-bottom: 1rem;
+  }
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
